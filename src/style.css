@@ -48,10 +48,10 @@ body {
   background-color: transparent;
   color: white;
 }
-.btn-78 {
+.btn-leftBrackets {
   width: 30px !important;
 }
-.btn-87 {
+.btn-rightBrackets {
   width: 30px !important;
 }
 .calculator-btnContainer button:hover {

@@ -107,10 +107,10 @@ export const Calculate = ({ value, history, setValue, setHistory, historyLastIte
         <button onClick={(e) => numberBtn(e)}>3</button>
         <button onClick={(e) => operateBtn(e)}>-</button>
         <button onClick={(e) => numberBtn(e)}>0</button>
-        <button className="btn-78" onClick={(e) => leftBracketsBtn(e)}>
+        <button className="btn-leftBrackets" onClick={(e) => leftBracketsBtn(e)}>
           (
         </button>
-        <button className="btn-87" onClick={(e) => rightBracketsBtn(e)}>
+        <button className="btn-rightBrackets" onClick={(e) => rightBracketsBtn(e)}>
           )
         </button>
         <button onClick={(e) => dotBtn(e)}>.</button>
